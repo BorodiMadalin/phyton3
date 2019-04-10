@@ -33,5 +33,5 @@ def get_work(mass,acceleration,distance):
   force = get_force(mass,acceleration)
   return force * distance
 
-train_work=get_work(train_mass,train_acceleration,train_distance
+train_work=get_work(train_mass,train_acceleration,train_distance)
 print ("The GE train does " + str(train_work) + " Joules of work over " + str(train_distance) + " meters.")
